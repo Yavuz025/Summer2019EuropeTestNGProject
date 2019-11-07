@@ -6,7 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class LinkTextAndPartialLinkText {
+class LinkTextAndPartialLinkText {
 
     public static void main(String[] args) {
         //open browser
