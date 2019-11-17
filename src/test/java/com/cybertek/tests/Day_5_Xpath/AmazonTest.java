@@ -40,8 +40,8 @@ public class AmazonTest {
                 WebElement searchButton = driver.findElement(By.xpath("//input[@value='Go']"));
 
                 searchButton.click();
-                String resultMessage=driver.findElement(By.xpath("//span[contains(text(),'results for')]"));
-                System.out.println( resultMessage);
+                WebElement resultMessage=driver.findElement(By.xpath("//span[contains(text(),'results for')]"));
+                System.out.println("resultMessage");
                 Thread.sleep(3000);
                 driver.quit();
 
