@@ -1,4 +1,4 @@
-package com.cybertek.tests.Day_4BasicLocators;
+package com.cybertek.tests.Day4_BasicLocators;
 
 import com.cybertek.utilities.WebDriverFactory;
 import org.openqa.selenium.By;
